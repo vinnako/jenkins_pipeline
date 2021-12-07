@@ -1,0 +1,8 @@
+---
+  - name: httpd is there
+    hosts:  Test
+    tasks:
+      - name: ensure httpd is installed
+        command: sudo systemctl restart apache2
+      - name: ensure httpd status
+        command: sudo systemctl status apache2 
