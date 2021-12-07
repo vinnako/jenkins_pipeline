@@ -1,2 +1,4 @@
-[Test]
-35.238.92.168 ansible_user=instance-1
+all:
+  hosts:
+    localhost
+    10.128.0.31
